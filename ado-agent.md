@@ -70,5 +70,10 @@ echo "======================================"
 🔴 To check live agent pipeline jobs logs:
 
 ```bash
-sudo journalctl -u 'vsts.agent.Vistara\x2dSatyam.tomcat\x2dagent\x2dpool.tomcat.service' -f
+# To find the jobs name
+systemctl list-units --type=service | grep vsts   
+
+# update the exact job and check running jobs 
+sudo journalctl -u '<service-name>' -f
+sudo journalctl -u 'vsts.agent.Vistara\x2dSatyam.tomcat\x2dagent\x2dpool.ado\x2dmaven.service' -f
 ```
