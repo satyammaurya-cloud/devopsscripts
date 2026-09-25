@@ -13,7 +13,7 @@ set -e
 # ==============================
 
 AZP_URL="https://dev.azure.com/Vistara-Satyam"
-PAT="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+PAT="xxxx"
 AGENT_POOL="tomcat-agent-pool"
 
 AGENT_VERSION="5.279.0"
