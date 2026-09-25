@@ -37,7 +37,7 @@ su - sonar
 
 # ===================
 
-automatically root privilege se chalega, kyunki poori script root se execute ho rahi hai.
+above script automatically root privilege se chalega, kyunki poori script root se execute ho rahi hai.
 
 Phir last line:
 
@@ -54,3 +54,18 @@ cd /opt/sonarqube-26.9.0.129388/bin/linux-x86-64
 ./sonar.sh status
 
 =======
+curl -I http://localhost:9000
+========================================
+front-server-01@hostname:~$ sudo -s
+root@hostname:/home/front-server-01#
+
+root@hostname:/home/front-server-01# hostnamectl set-hostname sonar
+
+root@hostname:/home/front-server-01# sudo -i
+root@sonar:~#
+
+root@sonar:~# vi sonar.sh
+root@sonar:~# ls
+snap  sonar.sh
+
+before run need to remember
