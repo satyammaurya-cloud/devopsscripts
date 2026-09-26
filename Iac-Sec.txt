@@ -1,0 +1,37 @@
+TF Lint
+
+https://github.com/terraform-linters/tflint/releases/download/v0.64.0/tflint_windows_amd64.zip
+
+https://github.com/terraform-linters/tflint/releases/download/v0.64.0/tflint_linux_amd64.zip
+=======================================
+
+TFSec
+
+https://github.com/aquasecurity/tfsec/releases/download/v1.28.14/tfsec_1.28.14_windows_arm64.tar.gz
+
+https://github.com/aquasecurity/tfsec/releases/download/v1.28.14/tfsec_1.28.14_linux_arm64.tar.gz
+
+=======================================
+
+Infra Cost
+
+https://github.com/infracost/infracost/releases/download/v0.10.46/infracost-windows-amd64.zip
+
+https://github.com/infracost/infracost/releases/download/v0.10.46/infracost-linux-amd64.tar.gz
+
+============================
+
+Checkov
+
+https://github.com/bridgecrewio/checkov/releases/download/3.3.19/checkov_windows_X86_64.zip
+
+https://github.com/bridgecrewio/checkov/releases/download/3.3.19/checkov_linux_X86_64.zip
+
+
+Trivy
+
+=======================
+
+https://github.com/aquasecurity/trivy/releases/download/v0.74.0/trivy_0.74.0_windows-64bit.zip
+
+https://github.com/aquasecurity/trivy/releases/download/v0.74.0/trivy_0.74.0_Linux-64bit.tar.gz
